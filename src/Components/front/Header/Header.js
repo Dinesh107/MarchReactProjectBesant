@@ -13,7 +13,7 @@ const Header = () => {
                 </Link>
             </h1>
         </div>
-        <div className='header-links' >
+        <div className='header-Links'>
              <ul>
                 <li>
                     <Link to="/">Home</Link>
@@ -26,7 +26,7 @@ const Header = () => {
              </ul>
              <ul>
                 <li>
-                    <Link to="/cart">Cart</Link>
+                    <Link to="/cart" className='cart' >Cart</Link>
                 </li>
              </ul>
         </div>
